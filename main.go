@@ -14,7 +14,7 @@ import (
 
 func main() {
 
-	var Version = "0.0.9"
+	var Version = "1.0"
 	fmt.Printf("API Http Adapter App Version: %s\n", Version)
 	//Loads environment variables from .env file if exists
 	godotenv.Load()
